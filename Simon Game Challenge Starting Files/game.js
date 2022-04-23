@@ -4,7 +4,7 @@ var gamePattern = [];
 var buttonColors = ["red", "blue", "green", "yellow"];
 
 var started = false;
-var level = 0;
+var level = 0; //level
 
 $(document).keypress(function() {
   if (!started){
